@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// use hash map and prefix sum with modular arithematic
+// use hash map and prefix sum with mod
 int subarraysDivByK(vector<int>& nums, int k) {
     int n=nums.size();
     int cur_sum=0;
